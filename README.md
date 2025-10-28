@@ -10,7 +10,7 @@ In this scenario, I acted as a security analyst responsible for monitoring login
 The following steps below demonstrate how I used SQL filters to query two tables: <b>log_in_attempts</b> and <b>employees</b> in order to perform security-related tasks such as identifying failed login attempts, investigating specific incidents, and retrieving employee information.
 </p>
 
-<h2>Language & Environments Used</h2>
+<h2>Language & Environment Used</h2>
 <ul>
   <li><b>SQL / MySQL Database Environment (MariaDB)</b></li>
   <li><b>Simulated organization database (Google Skills)</b></li>
@@ -32,13 +32,12 @@ WHERE login_time > '18:00' AND success = FALSE;
 </code></pre>
 
 <p>
-The first part of the screenshot shows my query, and the second part shows the output.
-This query filters for failed login attempts that occurred after 18:00. 
+The query filters for failed login attempts that occurred after 18:00. 
 First, I selected all data from the <b>log_in_attempts</b> table. Then, I used a <b>WHERE</b> clause with an <b>AND</b> operator to filter only login attempts that occurred after 18:00 and were unsuccessful. 
 The condition <b>login_time > '18:00'</b> isolates after-hours attempts, while <b>success = FALSE</b> filters for failed logins.
 </p>
 
-<p><b>[image here]</b></p>
+![sql1](https://i.imgur.com/3txG2Xc.jpeg)
 
 <hr>
 
@@ -56,13 +55,13 @@ WHERE login_date = '2022-05-09' OR login_date = '2022-05-08';
 </code></pre>
 
 <p>
-The first part of the screenshot shows my query, and the second part shows the output. 
 This query returns all login attempts that occurred on 2022-05-09 or 2022-05-08. 
 I used a <b>WHERE</b> clause with an <b>OR</b> operator to include both dates. 
 The condition <b>login_date = '2022-05-09'</b> retrieves logins from May 9th, and <b>login_date = '2022-05-08'</b> retrieves logins from the previous day.
 </p>
 
-<p><b>[image here]</b></p>
+![sql2.1](https://i.imgur.com/Fw8fBU5.jpeg)
+![sql2.2](https://i.imgur.com/xdbIzM2.jpeg)
 
 <hr>
 
@@ -80,13 +79,13 @@ WHERE NOT country LIKE 'MEX%';
 </code></pre>
 
 <p>
-The first part of the screenshot is my query, and the second part is the output.
 This query returns all login attempts that occurred in countries other than Mexico.
 I started by selecting all data from the <b>log_in_attempts</b> table, then used a <b>WHERE</b> clause with <b>NOT</b> and <b>LIKE</b> to exclude “MEX” and “MEXICO.”  
 The <b>%</b> wildcard allows the filter to match both patterns, ensuring complete coverage of the dataset.
 </p>
 
-<p><b>[image here]</b></p>
+![sql3.1](https://i.imgur.com/tSfhNcD.jpeg)
+![sql3.2](https://i.imgur.com/AM1ObNu.jpeg)
 
 <hr>
 
@@ -104,13 +103,12 @@ WHERE department = 'Marketing' AND office LIKE 'East%';
 </code></pre>
 
 <p>
-The first part of the screenshot is my query, and the second part is the output.
 This query returns all employees in the Marketing department located in the East building.  
 I used a <b>WHERE</b> clause with an <b>AND</b> operator to apply both conditions.
 The <b>LIKE 'East%'</b> pattern matches any office number beginning with “East.”
 </p>
 
-<p><b>[image here]</b></p>
+![sql4](https://i.imgur.com/z34ngPx.jpeg)
 
 <hr>
 
@@ -133,7 +131,8 @@ I used a <b>WHERE</b> clause with the <b>OR</b> operator because I wanted result
 The first condition filters for Finance, and the second for Sales.
 </p>
 
-<p><b>[image here]</b></p>
+![sql5.1](https://i.imgur.com/HOjHpTJ.jpeg)
+![sql5.2](https://i.imgur.com/trcPWtH.jpeg)
 
 <hr>
 
@@ -153,7 +152,8 @@ This query returns all employees not in the Information Technology department.
 I started by selecting all data from the <b>employees</b> table, then used a <b>WHERE</b> clause with the <b>NOT</b> operator to exclude IT staff from the results.
 </p>
 
-<p><b>[image here]</b></p>
+![sql6.1](https://i.imgur.com/Q4s7P9j.jpeg)
+![sql6.2](https://i.imgur.com/0bXeDzL.jpeg)
 
 <hr>
 
