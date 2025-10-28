@@ -20,7 +20,7 @@ The following steps below demonstrate how I used SQL filters to query two tables
 <h2>Environments Used</h2>
 <ul>
   <li><b>MariaDB / MySQL Database Environment</b></li>
-  <li><b>Simulated organization database</b></li>
+  <li><b>Simulated organization database (Google Skills)</b></li>
 </ul>
 
 <hr>
