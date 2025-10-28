@@ -2,12 +2,12 @@
 
 <h2>Description</h2>
 <p>
-This lab was completed as part of the <b>Google Cybersecurity Professional Certificate</b> series to build familiarity with using SQL filters in security analysis.
-In this scenario, I acted as a cybersecurity analyst responsible for monitoring login data, identifying suspicious login attempts, and retrieving information about employee systems for updates.
+This lab was completed as part of the <b>Google Cybersecurity Professional Certificate</b> series to build familiarity with using SQL filters.
+In this scenario, I acted as a security analyst responsible for monitoring login data, identifying suspicious login attempts, and retrieving information about employee systems for updates.
 </p>
 
 <p>
-The following steps demonstrate how I used SQL filters to query two tables: <b>log_in_attempts</b> and <b>employees</b> in order to perform security-related tasks such as identifying failed login attempts, investigating specific incidents, and retrieving employee information.
+The following steps below demonstrate how I used SQL filters to query two tables: <b>log_in_attempts</b> and <b>employees</b> in order to perform security-related tasks such as identifying failed login attempts, investigating specific incidents, and retrieving employee information.
 </p>
 
 <h2>Languages & Utilities Used</h2>
@@ -167,9 +167,7 @@ I started by selecting all data from the <b>employees</b> table, then used a <b>
 <h2>Summary</h2>
 <p>
 In this lab, I practiced applying SQL filters to extract targeted information from database tables for security and IT maintenance tasks.
-I used the <b>AND</b>, <b>OR</b>, and <b>NOT</b> operators to create precise queries and the <b>LIKE</b> operator with wildcard characters to match data patterns.
-<br><br>
-These exercises helped reinforce my understanding of how SQL can support cybersecurity investigations and operational workflows by isolating meaningful data from large datasets.
+I used the <b>AND</b>, <b>OR</b>, and <b>NOT</b> operators to create precise queries and the <b>LIKE</b> operator with wildcard characters to match data patterns. These exercises helped reinforce my understanding of how SQL can support cybersecurity investigations and operational workflows by isolating meaningful data from large datasets.
 </p>
 
 ## Credit
