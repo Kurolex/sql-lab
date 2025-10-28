@@ -10,16 +10,9 @@ In this scenario, I acted as a security analyst responsible for monitoring login
 The following steps below demonstrate how I used SQL filters to query two tables: <b>log_in_attempts</b> and <b>employees</b> in order to perform security-related tasks such as identifying failed login attempts, investigating specific incidents, and retrieving employee information.
 </p>
 
-<h2>Languages & Utilities Used</h2>
+<h2>Language & Environments Used</h2>
 <ul>
-  <li><b>SQL (MariaDB)</b></li>
-  <li><b>MySQL Command Line Interface</b></li>
-  <li><b>Google Skills SQL Sandbox</b></li>
-</ul>
-
-<h2>Environments Used</h2>
-<ul>
-  <li><b>MariaDB / MySQL Database Environment</b></li>
+  <li><b>SQL / MySQL Database Environment (MariaDB)</b></li>
   <li><b>Simulated organization database (Google Skills)</b></li>
 </ul>
 
